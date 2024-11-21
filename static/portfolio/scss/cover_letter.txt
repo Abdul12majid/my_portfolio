@@ -1,0 +1,28 @@
+Good day, 
+
+	I am AbdulMajid, a fourth year computer scientist. Keeping in mind you have other candidate's proposals under review, i will be keeping this brief and very much as concise as i can be. Below are the reasons why i am, without doubt, the best candidate for this role.
+
+		* I have a Computer Science degree in one of the most prestigious school in Nigeria.
+		* I have 4+ years of experience in the required field for this role.
+		* I am a self_taught programmer which gives me the ability to grasp and learn new things without much mentoring/guidance.
+		* I am very much fluent in communication.
+		* Unwavering dedication, attention to the task assigned.
+		* I am a team player and i focus on delivering top notched work.
+
+
+	Listed above are the basic reasons why i should be hired for this role. Below are what the company gets from me if i am hired.
+
+		* Experienced working with the Python Programming language and it's various framework( Django, Django Rest and Flask ).
+		* Strong Understanding of APIs.
+		* Worked with a ticketing tool i.e Jira.
+		* Efficient usage of version control i.e Git, Github.
+		* Very much fluent working with the Linux environment.
+		* Worked/working with various databases including MYSQL, Postgres, SQLAlchemy, Sqlite3.
+		* Worked/working with containers i.e Docker.
+		* Currently on my Journey to becoming a DevOps Engineer.
+
+	I hope you are almost convinced if not convinced already why i am a perfect fit for this role. Here is a link to my portfolio where i spoke extensively, though brief on the projects i have worked on to back my skills up and various technologies used while working on them.
+
+		https://abdul12majid.pythonanywhere.com/projects
+
+	I really hope the company hires me and if hired, i am willing to start work immediately + i promise nothing but the absolute best of me.

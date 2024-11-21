@@ -1,0 +1,120 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Projects
+{% endblock %}
+
+{% block content %}
+
+{% load static %}
+ <section class="section" id="blog">
+        <div class="container">
+            <h2 class="mb-5">My <span class="text-danger">Projects</span></h2>
+            <div class="row">
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="{% static 'portfolio/imgs/dev_resources.webp' %}" alt="">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">The Developer's Hub.</h6>
+                        
+                        <p>DevHub API is a backend platform that allows developers to discover, manage, and contribute to a collection of programming resources. The API provides powerful search functionality and the ability to create, update, and delete resources such as tutorials, code snippets, and documentation.</p>
+
+                        <b>Key Features:</b>
+                        <ul>
+                            <li>Search, Management, Extensible.</li>
+                            <li>API-First: Built with Django REST Framework, easy to integrate with frontend applications.</li>
+                        </ul>
+                        <b>Tech Stack:</b>
+                        <ul>
+                            <li>Backend: Django, Django REST Framework</li>
+                            <li>Database: SQLite/PostgreSQL</li>
+                        </ul>
+
+                        <b><center><p> View the source code <a href="https://github.com/Abdul12majid/dev_resources.git">here</a></p></center></b>
+                    </div>
+                </div><!-- end of blog wrapper -->
+
+                <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="{% static 'portfolio/imgs/celery_task.webp' %}" alt="">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">TaskMaster</h6>
+
+                       <p>TaskMaster is a dynamic task management system built with Django REST Framework, Celery, and Redis, designed to handle asynchronous task processing efficiently. The application enables users to create tasks, assign them, and trigger background notifications through an intuitive API.</p>
+
+                        <b>Key Features:</b>
+                        <ul>
+                            <li>Task creation, assignment, and management through a RESTful API.</li>
+                            <li>AAsynchronous task execution with Celery for efficient background processing.</li>
+                            <li>Scalable architecture using Redis for message queuing and task management.</li>
+                        </ul>
+                        <b>Tech Stack:</b>
+                        <ul>
+                            <li>Backend: Django, Django REST Framework</li>
+                            <li>Scheduling: Celery</li>
+                            <li>Real time management: Redis</li>
+                        </ul>
+
+                        <b><center><p> View the source code <a href="https://github.com/Abdul12majid/celery_task_management.git">here</a></p></center></b>
+                    </div>
+                </div><!-- end of blog wrapper -->
+
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="{% static 'portfolio/imgs/microservices.webp' %}" alt="">
+                    </div>
+                    <div class="content-holder">
+                        <h6 class="title">BlogSphere</h6>
+
+                        <p>BlogSphere is a microservice-based blog platform built with Django REST Framework. It leverages separate services for users, posts, comments, and search, each communicating via REST APIs. The platform ensures scalability and modularity, with user authentication handled through JWT tokens and secure communication between services. Designed for efficiency, BlogSphere demonstrates a modern, distributed approach to building a dynamic and scalable blogging application.</p>
+
+                        <b>Key Features:</b>
+                        <ul>
+                            <li>All servises communicaing via RESTAPI.</li>
+                        </ul>
+                        <b>Tech Stack:</b>
+                        <ul>
+                            <li>Backend: Django, Django REST Framework, Elastic Search</li>    
+                        </ul>
+
+                        <b><center><p> View the source code <a href="https://github.com/Abdul12majid/microservice_blog.git">here</a></p></center></b>
+                    </div>
+                </div><!-- end of blog wrapper -->
+
+                <!-- blog-card -->
+                <div class="blog-card">
+                    <div class="img-holder">
+                        <img src="{% static 'portfolio/imgs/blog.jpg' %}" alt="">
+                    </div>
+                    <div class="content-holder">
+                        <h4 class="title">Blogify (X-like)</h4>
+
+                        <p>Blogify is a modern blogging platform built with Django that allows users to create, share, and engage with content in a simple, intuitive environment. Featuring real-time interactions such as liking posts and following authors, Blogify also offers personalized dashboards for bloggers to manage their content and followers. The app integrates seamlessly with HTMX for dynamic content updates and utilizes Bootstrap for a responsive and clean user interface. This project highlights my skills in web development, particularly in building feature-rich, user-centric applications with Django and modern frontend technologies.</p>
+
+                        <b>Key Features:</b>
+                        <ul>
+                            <li>CRUD capabilities, like/unlike blog, follow/unfollow profiles.</li>
+                            
+                        </ul>
+                        <b>Tech Stack:</b>
+                        <ul>
+                            <li>Backend: Django, Django REST Framework</li>
+                            <li>Frontend: Bootstrap, HTMX, Alpine-Js, Tailwind-CSS</li>
+                        </ul>
+
+                        <b><center><p> View the source code <a href="https://github.com/Abdul12majid/my_blog.git">here</a></p></center></b>
+                    </div>
+                </div><!-- end of blog wrapper -->
+
+                
+            </div></br></br>
+            <center>
+    <a href="{% url 'contact-me' %}" class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Contact Me</a>
+           </center>
+
+        </div>
+    </section>
+{% endblock %}
